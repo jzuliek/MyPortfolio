@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AccordionModule} from 'primeng/accordion';     //accordion and accordion tab
 import {CardModule} from 'primeng/card';
 import {TabViewModule} from 'primeng/tabview';
+import { ResumeComponent } from './pages/resume/resume.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -20,7 +24,10 @@ import {TabViewModule} from 'primeng/tabview';
     HeaderComponent,
     MainComponent,
     FooterComponent,
-    LandingComponent
+    LandingComponent,
+    ResumeComponent,
+    ProjectsComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +36,8 @@ import {TabViewModule} from 'primeng/tabview';
     BrowserAnimationsModule,
     AccordionModule,
     CardModule,
-    TabViewModule
+    TabViewModule,
+    NgbModule
    
 
   ],
