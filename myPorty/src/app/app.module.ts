@@ -16,6 +16,14 @@ import {TabViewModule} from 'primeng/tabview';
 import { ResumeComponent } from './pages/resume/resume.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { Project1Component } from './pages/project1/project1.component';
+import { P2Component } from './pages/p2/p2.component';
+import { P3Component } from './pages/p3/p3.component';
+import { P4Component } from './pages/p4/p4.component';
+import { P5Component } from './pages/p5/p5.component';
+import { P6Component } from './pages/p6/p6.component';
+import { P7Component } from './pages/p7/p7.component';
+import { P8Component } from './pages/p8/p8.component';
 
 
 @NgModule({
@@ -27,7 +35,15 @@ import { NavbarComponent } from './navbar/navbar.component';
     LandingComponent,
     ResumeComponent,
     ProjectsComponent,
-    NavbarComponent
+    NavbarComponent,
+    Project1Component,
+    P2Component,
+    P3Component,
+    P4Component,
+    P5Component,
+    P6Component,
+    P7Component,
+    P8Component,
   ],
   imports: [
     BrowserModule,
