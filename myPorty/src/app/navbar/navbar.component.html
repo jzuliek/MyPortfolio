@@ -1,9 +1,14 @@
 <div class="row d-flex justify-content-between">
-    <div class ="col">
-        <h2>About Me</h2>
+    <div class="col">
+        <p-sidebar [(visible)]="display">
+
+        </p-sidebar>
+
+        <h2 (click)="display = true" label="Show">About Me</h2>
+
     </div>
     <div class="col-6">
-        <p-tabMenu [model]="items" [activeItem]="items[0]"></p-tabMenu>
+        <p-tabMenu [model]="items"></p-tabMenu>
     </div>
     <div class="col"></div>
 </div>
